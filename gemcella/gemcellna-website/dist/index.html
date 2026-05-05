@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>젬셀나 (Gemcellna) - K-아라리 | 자수정 온열 보석 테라피</title>
+    <meta name="description" content="세계 유일 자수정 온열 보석 테라피 기기, 젬셀나. KC 인증 눈 마사지기로 피부 건강과 혈액순환을 책임집니다.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="current-lang" aria-label="언어 선택">
+            <span class="lang-text">KR</span>
+            <span class="lang-arrow">▾</span>
+        </button>
+        <ul class="lang-menu">
+            <li><button data-lang="ko" class="active">한국어</button></li>
+            <li><button data-lang="en">English</button></li>
+            <li><button data-lang="zh-CN">中文(简体)</button></li>
+            <li><button data-lang="zh-HK">中文(繁體/廣東話)</button></li>
+            <li><button data-lang="es">Español</button></li>
+            <li><button data-lang="ja">日本語</button></li>
+            <li><button data-lang="fr">Français</button></li>
+            <li><button data-lang="de">Deutsch</button></li>
+        </ul>
+    </div>
+
+    <!-- Navigation Dots -->
+    <nav class="nav-dots">
+        <button class="nav-dot active" data-section="0" aria-label="Hero"></button>
+        <button class="nav-dot" data-section="1" aria-label="제품 소개"></button>
+        <button class="nav-dot" data-section="2" aria-label="기술 특징"></button>
+        <button class="nav-dot" data-section="3" aria-label="과학 원리"></button>
+        <button class="nav-dot" data-section="4" aria-label="회사 소개"></button>
+        <button class="nav-dot" data-section="5" aria-label="12가지 자수정"></button>
+        <button class="nav-dot" data-section="6" aria-label="연락처"></button>
+    </nav>
+
+    <!-- Arrow Navigation -->
+    <button class="nav-arrow nav-arrow-up" aria-label="이전 섹션">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+    <button class="nav-arrow nav-arrow-down" aria-label="다음 섹션">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+    </button>
+
+    <!-- Section 0: Hero -->
+    <section class="section section-hero active" data-index="0">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">K-ARARY PRESENTS</p>
+                <h1 class="hero-title">
+                    <span class="title-line">젬셀나</span>
+                    <span class="title-sub">Gem-Cellna</span>
+                </h1>
+                <p class="hero-desc">세계 유일, 자수정 온열 보석 테라피<br>빛과 열, 파동의 과학적 융합</p>
+                <div class="hero-badge">
+                    <span class="badge-icon">✓</span>
+                    <span>KC 인증 눈 마사지기</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-product-v2.jpg" alt="젬셀나 제품">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>아래로 스크롤</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Section 1: 제품 소개 -->
+    <section class="section section-intro" data-index="1">
+        <div class="section-content">
+            <div class="intro-grid">
+                <div class="intro-image">
+                    <img src="images/intro-full.jpg" alt="젬셀나 상세" class="product-full-view">
+                </div>
+                <div class="intro-text">
+                    <h2 class="section-title">자연에서 찾은 <span class="highlight">치유의 답</span></h2>
+                    <p class="section-desc">
+                        (주)K-아라리의 이영이 대표와 연구팀이 개발한 젬셀나는
+                        세계 유일하게 보석 자수정에 빛, 열, 그리고 파동을
+                        과학적으로 응용하여 <strong>K-뷰티 신한류 문화의 붐</strong>을
+                        선도하고 있습니다.
+                    </p>
+                    <div class="feature-cards">
+                        <div class="feature-card">
+                            <div class="feature-icon">🔥</div>
+                            <h3>온열 테라피</h3>
+                            <p>42°C ~ 46°C<br>맞춤 온도 설정</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">💎</div>
+                            <h3>자수정 에너지</h3>
+                            <p>32,786kHz<br>생육광선 방출</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">✨</div>
+                            <h3>광 테라피</h3>
+                            <p>660nm 파장<br>콜라겐 형성 촉진</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: 기술 특징 -->
+    <section class="section section-tech" data-index="2">
+        <div class="section-content">
+            <h2 class="section-title center">첨단 <span class="highlight">기술의 융합</span></h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-visual">
+                        <div class="tech-circle">
+                            <span class="tech-number">1MHz</span>
+                        </div>
+                    </div>
+                    <h3>초음파 기술</h3>
+                    <p>피부와 근육에 온열작용을 적용하여 혈관 확장을 유도하고 혈액순환을 촉진합니다. 깊은 심부까지 영향을 미쳐 세포 형성과 피부 건강에 기여합니다.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-visual">
+                        <div class="tech-circle red">
+                            <span class="tech-number">660nm</span>
+                        </div>
+                    </div>
+                    <h3>빛 파장 기술</h3>
+                    <p>피부 진피층까지 조사하여 콜라겐 형성에 도움을 줍니다. 피부 탄력 증진과 트러블 완화에 효과적입니다.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-visual">
+                        <div class="tech-circle purple">
+                            <span class="tech-number">32K</span>
+                            <span class="tech-unit">Hz</span>
+                        </div>
+                    </div>
+                    <h3>생육광선</h3>
+                    <p>온열 상태의 자수정이 초당 32,786kHz의 생육광선을 방출하여 심부열을 발생시키고 혈액 순환을 촉진합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: 과학 원리 -->
+    <section class="section section-science" data-index="3">
+        <div class="section-content">
+            <div class="science-grid">
+                <div class="science-text">
+                    <h2 class="section-title">자수정의 <span class="highlight">과학적 비밀</span></h2>
+                    <div class="science-facts">
+                        <div class="fact-item">
+                            <div class="fact-icon">⬡</div>
+                            <div class="fact-content">
+                                <h4>육각 구조</h4>
+                                <p>지구상 3,000가지 광물 중 오직 수정만이 육각으로 생성됩니다. 이 구조는 인체 세포 구조와 동일합니다.</p>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-icon">〰</div>
+                            <div class="fact-content">
+                                <h4>파동의 원리</h4>
+                                <p>뜨거워진 수정은 초당 3만 번의 헤르츠(Hz) 파장을 발생시켜 인체와 공명합니다.</p>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-icon">👁</div>
+                            <div class="fact-content">
+                                <h4>눈 건강</h4>
+                                <p>눈은 전체 92%가 수분으로 채워져 있어, 파동 기반 테라피에 가장 효과적으로 반응합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="science-image">
+                    <img src="images/woman-using.png" alt="젬셀나 사용">
+                    <div class="image-overlay">
+                        <p class="overlay-text">KC 인증 최초<br>접촉형 눈 마사지기</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: 회사 소개 -->
+    <section class="section section-company" data-index="4">
+        <div class="section-content">
+            <h2 class="section-title center"><span class="highlight">K-아라리</span></h2>
+            <p class="company-subtitle">자연의 지혜를 과학으로 실현하다</p>
+
+            <div class="company-grid">
+                <div class="ceo-card">
+                    <div class="ceo-image">
+                        <img src="images/ceo-lee-youngi.png" alt="이영이 대표">
+                    </div>
+                    <h3>이영이 대표</h3>
+                    <p>발명가 / CEO</p>
+                </div>
+                <div class="awards-list">
+                    <h3>수상 내역</h3>
+                    <ul>
+                        <li>🏆 세계 발명대회 금상</li>
+                        <li>🏆 대평 발명문화 대상</li>
+                        <li>🏆 노벨 사이언스 기술 혁신상</li>
+                        <li>🏆 장영실 과학 대상</li>
+                        <li>✓ KC 인증 (접촉형 눈 마사지기 최초)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-number">9,000+</span>
+                    <span class="stat-label">임상 누적</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">수정 종류</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: 12가지 자수정 -->
+    <section class="section section-crystals" data-index="5">
+        <div class="section-content">
+            <h2 class="section-title center">신비로운 <span class="highlight">12가지 자수정</span></h2>
+            <div class="crystal-grid">
+                <div class="crystal-card">
+                    <img src="images/crystals-1.png" alt="자수정 그룹 1">
+                </div>
+                <div class="crystal-card">
+                    <img src="images/crystals-2.png" alt="자수정 그룹 2">
+                </div>
+                <div class="crystal-card">
+                    <img src="images/crystals-3.jpg" alt="자수정 그룹 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: 연락처 -->
+    <section class="section section-contact" data-index="6">
+        <div class="section-content">
+            <h2 class="section-title center">체험 및 <span class="highlight">문의</span></h2>
+            <p class="contact-intro">부천 뉴코아 아울렛 5층 체험관에서 직접 경험해 보세요</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">🏢</div>
+                        <div class="contact-text">
+                            <h4>회사명</h4>
+                            <p>(주)K-아라리</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <h4>주소</h4>
+                            <p>경기도 부천시 원미구 송내대로 239<br>뉴코아아울렛 5층 K-아라리</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-text">
+                            <h4>전화</h4>
+                            <p>02-540-2288</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-text">
+                            <h4>이메일</h4>
+                            <p>koria202@hanmail.net</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <div class="cta-box">
+                        <h3>지금 바로 체험하세요</h3>
+                        <p>제품 구매보다 체험이 먼저!</p>
+                        <button id="open-inquiry" class="cta-button" style="border:none; cursor:pointer;">문의하기</button>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <p>© (주)K-아라리 All Rights Reserved.</p>
+                <p>사업자등록번호: 475-85-00047</p>
+            </footer>
+        </div>
+    </section>
+
+    <!-- Inquiry Modal -->
+    <div id="inquiry-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="닫기">&times;</button>
+            <h3 class="modal-title">문의하기</h3>
+            <p class="modal-desc">궁금하신 점을 남겨주시면 친절하게 답변해 드립니다.</p>
+
+            <form id="inquiry-form">
+                <div class="form-group">
+                    <label for="inquiry-subject">주제</label>
+                    <select id="inquiry-subject" required>
+                        <option value="" disabled selected>주제를 선택해주세요</option>
+                        <option value="구매">제품 구매 문의</option>
+                        <option value="체험">체험관 예약</option>
+                        <option value="제휴">제휴 및 사업 문의</option>
+                        <option value="기타">기타 문의</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="inquiry-contact">연락처</label>
+                    <input type="text" id="inquiry-contact" placeholder="연락받으실 전화번호 또는 이메일" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="inquiry-message">내용</label>
+                    <textarea id="inquiry-message" rows="5" placeholder="문의 내용을 자세히 적어주세요." required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button submit-btn">문의 접수하기</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
