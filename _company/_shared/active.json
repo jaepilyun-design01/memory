@@ -1,0 +1,24 @@
+{
+  "_migrated": true,
+  "_migrated_v2": true,
+  "secretary": {
+    "activatedAt": "2026-05-11T11:23:25.326Z",
+    "seeded": true
+  },
+  "youtube": {
+    "activatedAt": "2026-05-11T11:23:25.326Z",
+    "seeded": true
+  },
+  "writer": {
+    "activatedAt": "2026-05-11T11:23:25.326Z",
+    "seeded": true
+  },
+  "designer": {
+    "activatedAt": "2026-05-11T11:23:25.326Z",
+    "seeded": true
+  },
+  "developer": {
+    "activatedAt": "2026-05-11T12:14:13.385Z"
+  },
+  "_coder_recommended": true
+}
